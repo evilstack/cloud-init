@@ -1,6 +1,6 @@
 ---
 - name: applying Ubuntu cloud baseline
-  hosts: all
+  hosts: localhost
   gather_facts: yes
   become: yes
 
@@ -29,7 +29,6 @@
           - ldnsutils
           - whois
           - geoip-bin
-          - ansible
         update_cache: yes
         state: latest
 
