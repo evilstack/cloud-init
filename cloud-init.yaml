@@ -29,6 +29,7 @@
           - ldnsutils
           - whois
           - geoip-bin
+          - ansible
         update_cache: yes
         state: latest
 
